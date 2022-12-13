@@ -1,0 +1,4 @@
+# Project exclude paths
+/languages/send.point/classes_gen/
+/languages/send.point/generator/classes_gen/
+/languages/send.point.sandbox/classes_gen/

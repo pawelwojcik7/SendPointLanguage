@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,102,0" name="send.point.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,46,0" name="send.point.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,162,0" name="send.point.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832217336">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832217336" at="14,0,15,0" concept="1" trace="props_SendPointAddress" />
+      <node id="1103087830832217336" at="43,45,44,76" concept="3" />
+      <node id="1103087830832217336" at="44,76,45,50" concept="0" />
+      <node id="1103087830832217336" at="45,50,46,48" concept="0" />
+      <node id="1103087830832217336" at="47,9,48,38" concept="4" />
+      <node id="1103087830832217336" at="42,50,47,9" concept="2" />
+      <scope id="1103087830832217336" at="43,45,46,48">
+        <var name="cpb" id="1103087830832217336" />
+      </scope>
+      <scope id="1103087830832217336" at="42,50,48,38" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832217336" at="14,0,15,0" concept="5" trace="SendPointAddress" />
+      <node id="1103087830832217336" at="26,48,27,54" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832217336" at="17,0,18,0" concept="1" trace="myConceptSendPointAddress" />
+      <node id="1103087830832217336" at="50,50,51,41" concept="4" />
+      <node id="1103087830832217336" at="102,74,103,160" concept="3" />
+      <node id="1103087830832217336" at="103,160,104,34" concept="0" />
+      <node id="1103087830832217336" at="104,34,105,97" concept="0" />
+      <node id="1103087830832217336" at="105,97,106,17" concept="0" />
+      <node id="1103087830832217336" at="106,17,107,22" concept="4" />
+      <node id="1103087830832217336" at="102,0,109,0" concept="6" trace="createDescriptorForSendPointAddress#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832217336" at="50,50,51,41" />
+      <scope id="1103087830832217336" at="102,74,107,22">
+        <var name="b" id="1103087830832217336" />
+      </scope>
+      <scope id="1103087830832217336" at="102,0,109,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832218413">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832218413" at="15,0,16,0" concept="1" trace="props_SendPointBody" />
+      <node id="1103087830832218413" at="50,42,51,76" concept="3" />
+      <node id="1103087830832218413" at="51,76,52,47" concept="0" />
+      <node id="1103087830832218413" at="52,47,53,45" concept="0" />
+      <node id="1103087830832218413" at="54,9,55,35" concept="4" />
+      <node id="1103087830832218413" at="49,47,54,9" concept="2" />
+      <scope id="1103087830832218413" at="50,42,53,45">
+        <var name="cpb" id="1103087830832218413" />
+      </scope>
+      <scope id="1103087830832218413" at="49,47,55,35" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832218413" at="15,0,16,0" concept="5" trace="SendPointBody" />
+      <node id="1103087830832218413" at="27,54,28,51" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832218413" at="18,0,19,0" concept="1" trace="myConceptSendPointBody" />
+      <node id="1103087830832218413" at="52,47,53,38" concept="4" />
+      <node id="1103087830832218413" at="109,71,110,157" concept="3" />
+      <node id="1103087830832218413" at="110,157,111,34" concept="0" />
+      <node id="1103087830832218413" at="111,34,112,97" concept="0" />
+      <node id="1103087830832218413" at="112,97,113,17" concept="0" />
+      <node id="1103087830832218413" at="113,17,114,22" concept="4" />
+      <node id="1103087830832218413" at="109,0,116,0" concept="6" trace="createDescriptorForSendPointBody#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832218413" at="52,47,53,38" />
+      <scope id="1103087830832218413" at="109,71,114,22">
+        <var name="b" id="1103087830832218413" />
+      </scope>
+      <scope id="1103087830832218413" at="109,0,116,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832219397">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832219397" at="16,0,17,0" concept="1" trace="props_SendPointButton" />
+      <node id="1103087830832219397" at="57,44,58,76" concept="3" />
+      <node id="1103087830832219397" at="58,76,59,49" concept="0" />
+      <node id="1103087830832219397" at="59,49,60,47" concept="0" />
+      <node id="1103087830832219397" at="61,9,62,37" concept="4" />
+      <node id="1103087830832219397" at="56,49,61,9" concept="2" />
+      <scope id="1103087830832219397" at="57,44,60,47">
+        <var name="cpb" id="1103087830832219397" />
+      </scope>
+      <scope id="1103087830832219397" at="56,49,62,37" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832219397" at="16,0,17,0" concept="5" trace="SendPointButton" />
+      <node id="1103087830832219397" at="28,51,29,53" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832219397" at="19,0,20,0" concept="1" trace="myConceptSendPointButton" />
+      <node id="1103087830832219397" at="54,49,55,40" concept="4" />
+      <node id="1103087830832219397" at="116,73,117,159" concept="3" />
+      <node id="1103087830832219397" at="117,159,118,34" concept="0" />
+      <node id="1103087830832219397" at="118,34,119,97" concept="0" />
+      <node id="1103087830832219397" at="119,97,120,17" concept="0" />
+      <node id="1103087830832219397" at="120,17,121,22" concept="4" />
+      <node id="1103087830832219397" at="116,0,123,0" concept="6" trace="createDescriptorForSendPointButton#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832219397" at="54,49,55,40" />
+      <scope id="1103087830832219397" at="116,73,121,22">
+        <var name="b" id="1103087830832219397" />
+      </scope>
+      <scope id="1103087830832219397" at="116,0,123,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832220166">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832220166" at="17,0,18,0" concept="1" trace="props_SendPointMethod" />
+      <node id="1103087830832220166" at="64,44,65,76" concept="3" />
+      <node id="1103087830832220166" at="65,76,66,35" concept="0" />
+      <node id="1103087830832220166" at="66,35,67,47" concept="0" />
+      <node id="1103087830832220166" at="68,9,69,37" concept="4" />
+      <node id="1103087830832220166" at="63,49,68,9" concept="2" />
+      <scope id="1103087830832220166" at="64,44,67,47">
+        <var name="cpb" id="1103087830832220166" />
+      </scope>
+      <scope id="1103087830832220166" at="63,49,69,37" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832220166" at="17,0,18,0" concept="5" trace="SendPointMethod" />
+      <node id="1103087830832220166" at="29,53,30,53" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832220166" at="20,0,21,0" concept="1" trace="myConceptSendPointMethod" />
+      <node id="1103087830832220166" at="56,49,57,40" concept="4" />
+      <node id="1103087830832220166" at="123,73,124,159" concept="3" />
+      <node id="1103087830832220166" at="124,159,125,34" concept="0" />
+      <node id="1103087830832220166" at="125,34,126,71" concept="0" />
+      <node id="1103087830832220166" at="126,71,127,97" concept="0" />
+      <node id="1103087830832220166" at="127,97,128,17" concept="0" />
+      <node id="1103087830832220166" at="128,17,129,22" concept="4" />
+      <node id="1103087830832220166" at="123,0,131,0" concept="6" trace="createDescriptorForSendPointMethod#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832220166" at="56,49,57,40" />
+      <scope id="1103087830832220166" at="123,73,129,22">
+        <var name="b" id="1103087830832220166" />
+      </scope>
+      <scope id="1103087830832220166" at="123,0,131,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832220972">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832220972" at="18,0,19,0" concept="1" trace="props_SendPointParameter" />
+      <node id="1103087830832220972" at="71,47,72,76" concept="3" />
+      <node id="1103087830832220972" at="72,76,73,35" concept="0" />
+      <node id="1103087830832220972" at="73,35,74,50" concept="0" />
+      <node id="1103087830832220972" at="75,9,76,40" concept="4" />
+      <node id="1103087830832220972" at="70,52,75,9" concept="2" />
+      <scope id="1103087830832220972" at="71,47,74,50">
+        <var name="cpb" id="1103087830832220972" />
+      </scope>
+      <scope id="1103087830832220972" at="70,52,76,40" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832220972" at="18,0,19,0" concept="5" trace="SendPointParameter" />
+      <node id="1103087830832220972" at="30,53,31,56" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832220972" at="21,0,22,0" concept="1" trace="myConceptSendPointParameter" />
+      <node id="1103087830832220972" at="58,52,59,43" concept="4" />
+      <node id="1103087830832220972" at="131,76,132,162" concept="3" />
+      <node id="1103087830832220972" at="132,162,133,34" concept="0" />
+      <node id="1103087830832220972" at="133,34,134,71" concept="0" />
+      <node id="1103087830832220972" at="134,71,135,97" concept="0" />
+      <node id="1103087830832220972" at="135,97,136,17" concept="0" />
+      <node id="1103087830832220972" at="136,17,137,22" concept="4" />
+      <node id="1103087830832220972" at="131,0,139,0" concept="6" trace="createDescriptorForSendPointParameter#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832220972" at="58,52,59,43" />
+      <scope id="1103087830832220972" at="131,76,137,22">
+        <var name="b" id="1103087830832220972" />
+      </scope>
+      <scope id="1103087830832220972" at="131,0,139,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832222268">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832222268" at="20,0,21,0" concept="1" trace="props_SendPointResponseBody" />
+      <node id="1103087830832222268" at="85,50,86,76" concept="3" />
+      <node id="1103087830832222268" at="86,76,87,55" concept="0" />
+      <node id="1103087830832222268" at="87,55,88,53" concept="0" />
+      <node id="1103087830832222268" at="89,9,90,43" concept="4" />
+      <node id="1103087830832222268" at="84,55,89,9" concept="2" />
+      <scope id="1103087830832222268" at="85,50,88,53">
+        <var name="cpb" id="1103087830832222268" />
+      </scope>
+      <scope id="1103087830832222268" at="84,55,90,43" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832222268" at="20,0,21,0" concept="5" trace="SendPointResponseBody" />
+      <node id="1103087830832222268" at="32,59,33,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832222268" at="23,0,24,0" concept="1" trace="myConceptSendPointResponseBody" />
+      <node id="1103087830832222268" at="62,55,63,46" concept="4" />
+      <node id="1103087830832222268" at="147,79,148,165" concept="3" />
+      <node id="1103087830832222268" at="148,165,149,34" concept="0" />
+      <node id="1103087830832222268" at="149,34,150,97" concept="0" />
+      <node id="1103087830832222268" at="150,97,151,17" concept="0" />
+      <node id="1103087830832222268" at="151,17,152,22" concept="4" />
+      <node id="1103087830832222268" at="147,0,154,0" concept="6" trace="createDescriptorForSendPointResponseBody#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832222268" at="62,55,63,46" />
+      <scope id="1103087830832222268" at="147,79,152,22">
+        <var name="b" id="1103087830832222268" />
+      </scope>
+      <scope id="1103087830832222268" at="147,0,154,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832223308">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832223308" at="21,0,22,0" concept="1" trace="props_SendPointResponseStatus" />
+      <node id="1103087830832223308" at="92,52,93,76" concept="3" />
+      <node id="1103087830832223308" at="93,76,94,57" concept="0" />
+      <node id="1103087830832223308" at="94,57,95,55" concept="0" />
+      <node id="1103087830832223308" at="96,9,97,45" concept="4" />
+      <node id="1103087830832223308" at="91,57,96,9" concept="2" />
+      <scope id="1103087830832223308" at="92,52,95,55">
+        <var name="cpb" id="1103087830832223308" />
+      </scope>
+      <scope id="1103087830832223308" at="91,57,97,45" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832223308" at="21,0,22,0" concept="5" trace="SendPointResponseStatus" />
+      <node id="1103087830832223308" at="33,59,34,61" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832223308" at="24,0,25,0" concept="1" trace="myConceptSendPointResponseStatus" />
+      <node id="1103087830832223308" at="64,57,65,48" concept="4" />
+      <node id="1103087830832223308" at="154,81,155,167" concept="3" />
+      <node id="1103087830832223308" at="155,167,156,34" concept="0" />
+      <node id="1103087830832223308" at="156,34,157,97" concept="0" />
+      <node id="1103087830832223308" at="157,97,158,17" concept="0" />
+      <node id="1103087830832223308" at="158,17,159,22" concept="4" />
+      <node id="1103087830832223308" at="154,0,161,0" concept="6" trace="createDescriptorForSendPointResponseStatus#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832223308" at="64,57,65,48" />
+      <scope id="1103087830832223308" at="154,81,159,22">
+        <var name="b" id="1103087830832223308" />
+      </scope>
+      <scope id="1103087830832223308" at="154,0,161,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832224823">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1103087830832224823" at="19,0,20,0" concept="1" trace="props_SendPointPathVariable" />
+      <node id="1103087830832224823" at="78,50,79,76" concept="3" />
+      <node id="1103087830832224823" at="79,76,80,35" concept="0" />
+      <node id="1103087830832224823" at="80,35,81,53" concept="0" />
+      <node id="1103087830832224823" at="82,9,83,43" concept="4" />
+      <node id="1103087830832224823" at="77,55,82,9" concept="2" />
+      <scope id="1103087830832224823" at="78,50,81,53">
+        <var name="cpb" id="1103087830832224823" />
+      </scope>
+      <scope id="1103087830832224823" at="77,55,83,43" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1103087830832224823" at="19,0,20,0" concept="5" trace="SendPointPathVariable" />
+      <node id="1103087830832224823" at="31,56,32,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1103087830832224823" at="22,0,23,0" concept="1" trace="myConceptSendPointPathVariable" />
+      <node id="1103087830832224823" at="60,55,61,46" concept="4" />
+      <node id="1103087830832224823" at="139,79,140,165" concept="3" />
+      <node id="1103087830832224823" at="140,165,141,34" concept="0" />
+      <node id="1103087830832224823" at="141,34,142,71" concept="0" />
+      <node id="1103087830832224823" at="142,71,143,97" concept="0" />
+      <node id="1103087830832224823" at="143,97,144,17" concept="0" />
+      <node id="1103087830832224823" at="144,17,145,22" concept="4" />
+      <node id="1103087830832224823" at="139,0,147,0" concept="6" trace="createDescriptorForSendPointPathVariable#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1103087830832224823" at="60,55,61,46" />
+      <scope id="1103087830832224823" at="139,79,145,22">
+        <var name="b" id="1103087830832224823" />
+      </scope>
+      <scope id="1103087830832224823" at="139,0,147,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/2042270437838792635">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2042270437838792635" at="12,0,13,0" concept="1" trace="props_PostWoman" />
+      <node id="2042270437838792635" at="29,38,30,76" concept="3" />
+      <node id="2042270437838792635" at="30,76,31,35" concept="0" />
+      <node id="2042270437838792635" at="31,35,32,41" concept="0" />
+      <node id="2042270437838792635" at="33,9,34,31" concept="4" />
+      <node id="2042270437838792635" at="28,43,33,9" concept="2" />
+      <scope id="2042270437838792635" at="29,38,32,41">
+        <var name="cpb" id="2042270437838792635" />
+      </scope>
+      <scope id="2042270437838792635" at="28,43,34,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2042270437838792635" at="12,0,13,0" concept="5" trace="PostWoman" />
+      <node id="2042270437838792635" at="24,116,25,48" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2042270437838792635" at="15,0,16,0" concept="1" trace="myConceptPostWoman" />
+      <node id="2042270437838792635" at="46,43,47,34" concept="4" />
+      <node id="2042270437838792635" at="76,67,77,154" concept="3" />
+      <node id="2042270437838792635" at="77,154,78,33" concept="0" />
+      <node id="2042270437838792635" at="78,33,79,71" concept="0" />
+      <node id="2042270437838792635" at="79,71,80,76" concept="0" />
+      <node id="2042270437838792635" at="80,76,81,97" concept="0" />
+      <node id="2042270437838792635" at="81,97,82,17" concept="0" />
+      <node id="2042270437838797428" at="82,17,83,201" concept="0" />
+      <node id="2042270437838792635" at="83,201,84,22" concept="4" />
+      <node id="2042270437838792635" at="76,0,86,0" concept="6" trace="createDescriptorForPostWoman#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2042270437838792635" at="46,43,47,34" />
+      <scope id="2042270437838792635" at="76,67,84,22">
+        <var name="b" id="2042270437838792635" />
+      </scope>
+      <scope id="2042270437838792635" at="76,0,86,0" />
+    </file>
+  </root>
+  <root nodeRef="r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/2042270437838794666">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2042270437838794666" at="13,0,14,0" concept="1" trace="props_SendPoint" />
+      <node id="2042270437838794666" at="36,38,37,76" concept="3" />
+      <node id="2042270437838794666" at="37,76,38,35" concept="0" />
+      <node id="2042270437838794666" at="38,35,39,41" concept="0" />
+      <node id="2042270437838794666" at="40,9,41,31" concept="4" />
+      <node id="2042270437838794666" at="35,43,40,9" concept="2" />
+      <scope id="2042270437838794666" at="36,38,39,41">
+        <var name="cpb" id="2042270437838794666" />
+      </scope>
+      <scope id="2042270437838794666" at="35,43,41,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2042270437838794666" at="13,0,14,0" concept="5" trace="SendPoint" />
+      <node id="2042270437838794666" at="25,48,26,48" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2042270437838794666" at="16,0,17,0" concept="1" trace="myConceptSendPoint" />
+      <node id="2042270437838794666" at="48,43,49,34" concept="4" />
+      <node id="2042270437838794666" at="86,67,87,154" concept="3" />
+      <node id="2042270437838794666" at="87,154,88,34" concept="0" />
+      <node id="2042270437838794666" at="88,34,89,71" concept="0" />
+      <node id="2042270437838794666" at="89,71,90,97" concept="0" />
+      <node id="2042270437838794666" at="90,97,91,17" concept="0" />
+      <node id="1103087830832226119" at="91,17,92,198" concept="0" />
+      <node id="1103087830832226429" at="92,198,93,198" concept="0" />
+      <node id="1103087830832231157" at="93,198,94,199" concept="0" />
+      <node id="1103087830832232319" at="94,199,95,195" concept="0" />
+      <node id="1103087830832237724" at="95,195,96,199" concept="0" />
+      <node id="1103087830832241590" at="96,199,97,196" concept="0" />
+      <node id="1103087830832241890" at="97,196,98,205" concept="0" />
+      <node id="1103087830832246259" at="98,205,99,203" concept="0" />
+      <node id="2042270437838794666" at="99,203,100,22" concept="4" />
+      <node id="2042270437838794666" at="86,0,102,0" concept="6" trace="createDescriptorForSendPoint#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2042270437838794666" at="48,43,49,34" />
+      <scope id="2042270437838794666" at="86,67,100,22">
+        <var name="b" id="2042270437838794666" />
+      </scope>
+      <scope id="2042270437838794666" at="86,0,102,0" />
+    </file>
+  </root>
+</debug-info>
+
