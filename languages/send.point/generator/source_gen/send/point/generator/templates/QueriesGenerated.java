@@ -69,14 +69,17 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetValue_2_10(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
   }
+  public static Object propertyMacro_GetValue_2_11(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
+  }
   public static Object referenceMacro_GetReferent_2_0(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "AddressFieldDecoration");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ParameterFieldDecoration");
   }
   public static Object referenceMacro_GetReferent_2_1(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "AddressFieldDecoration");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "PathVariableFieldDecoration");
   }
   public static Object referenceMacro_GetReferent_2_2(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ParameterFieldDecoration");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "AddressFieldDecoration");
   }
   public static Object referenceMacro_GetReferent_2_3(final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ParameterFieldDecoration");
@@ -85,36 +88,18 @@ public class QueriesGenerated extends QueryProviderBase {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "PathVariableFieldDecoration");
   }
   public static Object referenceMacro_GetReferent_2_5(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "PathVariableFieldDecoration");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "BodyFieldDecoration");
   }
   public static Object referenceMacro_GetReferent_2_6(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "BodyFieldDecoration");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SendButtonDecoration");
   }
   public static Object referenceMacro_GetReferent_2_7(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "BodyFieldDecoration");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "MethodFieldDecoration");
   }
   public static Object referenceMacro_GetReferent_2_8(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SendButtonDecoration");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ResponseStatusFieldDecoration");
   }
   public static Object referenceMacro_GetReferent_2_9(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SendButtonDecoration");
-  }
-  public static Object referenceMacro_GetReferent_2_10(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "MethodFieldDecoration");
-  }
-  public static Object referenceMacro_GetReferent_2_11(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "MethodFieldDecoration");
-  }
-  public static Object referenceMacro_GetReferent_2_12(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ResponseStatusFieldDecoration");
-  }
-  public static Object referenceMacro_GetReferent_2_13(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ResponseStatusFieldDecoration");
-  }
-  public static Object referenceMacro_GetReferent_2_14(final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ResponseBodyFieldDecoration");
-  }
-  public static Object referenceMacro_GetReferent_2_15(final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ResponseBodyFieldDecoration");
   }
   public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
@@ -135,6 +120,12 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Iterable<SNode> sourceNodesQuery_2_3(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), LINKS.variable$lXsj);
   }
+  public static Iterable<SNode> sourceNodesQuery_2_4(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), LINKS.parameter$zeph);
+  }
+  public static Iterable<SNode> sourceNodesQuery_2_5(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), LINKS.variable$lXsj);
+  }
   private final Map<String, SourceNodesQuery> snsqMethods = new HashMap<String, SourceNodesQuery>();
   {
     int i = 0;
@@ -142,6 +133,8 @@ public class QueriesGenerated extends QueryProviderBase {
     snsqMethods.put("2042270437839516334", new SNsQ(i++));
     snsqMethods.put("7184735009877408670", new SNsQ(i++));
     snsqMethods.put("4620405792280132641", new SNsQ(i++));
+    snsqMethods.put("8579157963846899922", new SNsQ(i++));
+    snsqMethods.put("1711265974708387279", new SNsQ(i++));
     snsqMethods.put("7184735009877768879", new SNsQ(i++));
     snsqMethods.put("4620405792280845911", new SNsQ(i++));
   }
@@ -171,6 +164,10 @@ public class QueriesGenerated extends QueryProviderBase {
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_2_2(ctx));
         case 5:
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_2_3(ctx));
+        case 6:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_2_4(ctx));
+        case 7:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_2_5(ctx));
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -191,6 +188,7 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("4620405792280623937", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "responseBodyField"));
     pvqMethods.put("7184735009877870462", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), "Title"));
     pvqMethods.put("4620405792280786621", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), "Title"));
+    pvqMethods.put("8579157963842130281", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), "SendPoint"));
     pvqMethods.put("4620405792279817698", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "SendPointImplementation"));
   }
   @NotNull
@@ -234,6 +232,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.propertyMacro_GetValue_2_9(ctx);
         case 12:
           return QueriesGenerated.propertyMacro_GetValue_2_10(ctx);
+        case 13:
+          return QueriesGenerated.propertyMacro_GetValue_2_11(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -241,22 +241,16 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   private final Map<String, ReferenceTargetQuery> rtqMethods = new HashMap<String, ReferenceTargetQuery>();
   {
-    rtqMethods.put("5395015244805436139", new RTQ(0, "addressField"));
-    rtqMethods.put("5395015244805436158", new RTQ(1, "addressField"));
-    rtqMethods.put("7184735009877783750", new RTQ(2, "parameterField"));
+    rtqMethods.put("8579157963847256380", new RTQ(0, "parameterField"));
+    rtqMethods.put("1711265974708278722", new RTQ(1, "pathVariableField"));
+    rtqMethods.put("5395015244805436158", new RTQ(2, "addressField"));
     rtqMethods.put("7184735009877891086", new RTQ(3, "parameterField"));
-    rtqMethods.put("4620405792282131091", new RTQ(4, "pathVariableField"));
-    rtqMethods.put("4620405792280840313", new RTQ(5, "parameterField"));
-    rtqMethods.put("4620405792282222577", new RTQ(6, "bodyField"));
-    rtqMethods.put("4620405792281124884", new RTQ(7, "bodyField"));
-    rtqMethods.put("4620405792282295813", new RTQ(8, "sendButton"));
-    rtqMethods.put("4620405792281355515", new RTQ(9, "sendButton"));
-    rtqMethods.put("4620405792282368714", new RTQ(10, "method"));
-    rtqMethods.put("4620405792281464692", new RTQ(11, "method"));
-    rtqMethods.put("4620405792282441464", new RTQ(12, "responseStatusField"));
-    rtqMethods.put("4620405792281755149", new RTQ(13, "responseStatusField"));
-    rtqMethods.put("4620405792282512263", new RTQ(14, "responseBodyField"));
-    rtqMethods.put("4620405792281657797", new RTQ(15, "responseBodyField"));
+    rtqMethods.put("4620405792280840313", new RTQ(4, "parameterField"));
+    rtqMethods.put("4620405792281124884", new RTQ(5, "bodyField"));
+    rtqMethods.put("4620405792281355515", new RTQ(6, "sendButton"));
+    rtqMethods.put("4620405792281464692", new RTQ(7, "method"));
+    rtqMethods.put("4620405792281755149", new RTQ(8, "responseStatusField"));
+    rtqMethods.put("4620405792281657797", new RTQ(9, "responseBodyField"));
   }
   @NotNull
   @Override
@@ -293,18 +287,6 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.referenceMacro_GetReferent_2_8(ctx);
         case 9:
           return QueriesGenerated.referenceMacro_GetReferent_2_9(ctx);
-        case 10:
-          return QueriesGenerated.referenceMacro_GetReferent_2_10(ctx);
-        case 11:
-          return QueriesGenerated.referenceMacro_GetReferent_2_11(ctx);
-        case 12:
-          return QueriesGenerated.referenceMacro_GetReferent_2_12(ctx);
-        case 13:
-          return QueriesGenerated.referenceMacro_GetReferent_2_13(ctx);
-        case 14:
-          return QueriesGenerated.referenceMacro_GetReferent_2_14(ctx);
-        case 15:
-          return QueriesGenerated.referenceMacro_GetReferent_2_15(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

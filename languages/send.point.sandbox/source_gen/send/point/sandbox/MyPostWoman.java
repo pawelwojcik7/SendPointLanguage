@@ -8,9 +8,7 @@ import javax.swing.SwingUtilities;
 
 public class MyPostWoman extends JFrame {
 
-  private Sendpoint4444 sendPoint_a = new Sendpoint4444();
-  private SendPoint1 sendPoint_b = new SendPoint1();
-  private SendPoint2 sendPoint_c = new SendPoint2();
+  private SendPoint sendPoint_a = new SendPoint();
 
   public MyPostWoman() {
     setTitle("PostWoman");
@@ -18,10 +16,6 @@ public class MyPostWoman extends JFrame {
     int size = 0;
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     add(sendPoint_a);
-    size++;
-    add(sendPoint_b);
-    size++;
-    add(sendPoint_c);
     size++;
     if (size != 0) {
       setLayout(new GridLayout(0, size));

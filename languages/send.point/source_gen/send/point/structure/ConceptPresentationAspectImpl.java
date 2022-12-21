@@ -63,7 +63,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.SendPointMethod:
         if (props_SendPointMethod == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
+          cpb.rawPresentation("SendPointMethod");
           props_SendPointMethod = cpb.create();
         }
         return props_SendPointMethod;

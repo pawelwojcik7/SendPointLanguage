@@ -123,7 +123,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForSendPointMethod() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("send.point", "SendPointMethod", 0xd7b95e9eebcd4c13L, 0xb8b768e41a0acda9L, 0xf4ef489a8cf8806L);
     b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:05c2b1eb-eb8e-4221-a004-7fa304525a30(send.point.structure)/1103087830832220166");
     b.version(3);
     return b.create();

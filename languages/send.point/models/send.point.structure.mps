@@ -135,9 +135,6 @@
     <property role="EcuMT" value="1103087830832220166" />
     <property role="TrG5h" value="SendPointMethod" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="6ePjANl2zTU" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="XeX8ACNSGG">
     <property role="EcuMT" value="1103087830832220972" />
