@@ -8,7 +8,8 @@ import javax.swing.SwingUtilities;
 
 public class MyPostWoman extends JFrame {
 
-  private SendPoint sendPoint_a = new SendPoint();
+  private PostExample sendPoint_a = new PostExample();
+  private GetExample sendPoint_b = new GetExample();
 
   public MyPostWoman() {
     setTitle("PostWoman");
@@ -16,6 +17,8 @@ public class MyPostWoman extends JFrame {
     int size = 0;
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     add(sendPoint_a);
+    size++;
+    add(sendPoint_b);
     size++;
     if (size != 0) {
       setLayout(new GridLayout(0, size));
